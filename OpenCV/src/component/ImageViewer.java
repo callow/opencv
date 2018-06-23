@@ -17,7 +17,7 @@ import org.opencv.core.Mat;
 
 /**
  * Swing utility
- * @author кнюз
+ * @author О©╫О©╫О©╫О©╫
  *
  */
 public class ImageViewer {
@@ -43,7 +43,7 @@ public class ImageViewer {
 		JFrame frame = new JFrame(windowName);
 		imageView = new JLabel();
 		final JScrollPane imageScrollPane = new JScrollPane(imageView);
-		imageScrollPane.setPreferredSize(new Dimension(640, 480));
+		imageScrollPane.setPreferredSize(new Dimension(1300, 700));
 		frame.add(imageScrollPane, BorderLayout.CENTER);
 		frame.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
 		return frame;

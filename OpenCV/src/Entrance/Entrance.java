@@ -37,7 +37,7 @@ class Entrance {
 //			
 //		}
 //----------------------------------------------------------------------------------		
-		//打开video camera		
+		//打开video camera， page 47 	
 		VideoViewer video = new VideoViewer();
 		video.initGUI();
 		video.runMainLoop(args);
